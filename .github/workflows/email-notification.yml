@@ -2,7 +2,7 @@ name: Centralized Email Notification
 
 on:
   repository_dispatch:
-    types: [build-failure]
+    types: [send-notification-on-build-failure]
 
 jobs:
   send-email:
