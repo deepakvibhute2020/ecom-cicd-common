@@ -22,10 +22,10 @@ jobs:
 
           to: ${{ vars.BUILD_NOTIFICATION_EMAILS }}
 
-          from: GitHub Actions
+          from: ECON GitHub Actions
 
           body: |
-            Build Failure Notification
+            ECON Build Failure Notification
 
             Repository: ${{ github.event.client_payload.repository }}
             Branch: ${{ github.event.client_payload.branch }}
